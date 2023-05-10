@@ -7,25 +7,127 @@ Interaction index,Player index,Opponent index,Repetition,Player name,Opponent na
 2,2,0,0,Tit For Tat,Cooperator,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
 3,0,3,0,Cooperator,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
 3,3,0,0,Grudger,Cooperator,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-4,0,4,0,Cooperator,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
-4,4,0,0,Lukas - Generous Tit-For-Tat,Cooperator,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
-5,1,1,0,Defector,Defector,DDDDDDDDDD,-30,0,10,-3.0,0.0,0,False,0,0,0,0,10,0,0,0,0,0,0,0,9,1
-5,1,1,0,Defector,Defector,DDDDDDDDDD,-30,0,10,-3.0,0.0,0,False,0,0,0,0,10,0,0,0,0,0,0,0,9,1
-6,1,2,0,Defector,Tit For Tat,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
-6,2,1,0,Tit For Tat,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
-7,1,3,0,Defector,Grudger,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
-7,3,1,0,Grudger,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
-8,1,4,0,Defector,Lukas - Generous Tit-For-Tat,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
-8,4,1,0,Lukas - Generous Tit-For-Tat,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
-9,2,2,0,Tit For Tat,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-9,2,2,0,Tit For Tat,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-10,2,3,0,Tit For Tat,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-10,3,2,0,Grudger,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-11,2,4,0,Tit For Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
-11,4,2,0,Lukas - Generous Tit-For-Tat,Tit For Tat,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
-12,3,3,0,Grudger,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-12,3,3,0,Grudger,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
-13,3,4,0,Grudger,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
-13,4,3,0,Lukas - Generous Tit-For-Tat,Grudger,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
-14,4,4,0,Lukas - Generous Tit-For-Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
-14,4,4,0,Lukas - Generous Tit-For-Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+4,0,4,0,Cooperator,Danai - Random: 0.5,CCCCCCCCCC,-38,-35,10,-3.8,-3.5,0,True,10,3,7,0,0,2,0,7,0,0,0,0,0,1
+4,4,0,0,Danai - Random: 0.5,Cooperator,DDCDDCDDDC,-3,35,10,-0.3,3.5,1,False,3,3,0,7,0,0,2,0,0,3,4,0,0,0
+5,0,5,0,Cooperator,Florence,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+5,5,0,0,Florence,Cooperator,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+6,0,6,0,Cooperator,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+6,6,0,0,Lukas - Generous Tit-For-Tat,Cooperator,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+7,0,7,0,Cooperator,Luka - Checkmate,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+7,7,0,0,Luka - Checkmate,Cooperator,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+8,0,8,0,Cooperator,Philipp - Random: 0.5,CCCCCCCCCC,-38,-35,10,-3.8,-3.5,0,True,10,3,7,0,0,3,0,6,0,0,0,0,0,1
+8,8,0,0,Philipp - Random: 0.5,Cooperator,CCCDDDDDDD,-3,35,10,-0.3,3.5,1,True,3,3,0,7,0,2,1,0,0,0,6,0,0,0
+9,0,9,0,Cooperator,Jan,CCCCCCCCCC,-34,-30,10,-3.4,-3.0,0,True,10,4,6,0,0,4,0,5,0,0,0,0,0,1
+9,9,0,0,Jan,Cooperator,CCCCDDDDDD,-4,30,10,-0.4,3.0,1,True,4,4,0,6,0,3,1,0,0,0,5,0,0,0
+10,0,10,0,Cooperator,Valentin: 0.5,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+10,10,0,0,Valentin: 0.5,Cooperator,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+11,1,1,0,Defector,Defector,DDDDDDDDDD,-30,0,10,-3.0,0.0,0,False,0,0,0,0,10,0,0,0,0,0,0,0,9,1
+11,1,1,0,Defector,Defector,DDDDDDDDDD,-30,0,10,-3.0,0.0,0,False,0,0,0,0,10,0,0,0,0,0,0,0,9,1
+12,1,2,0,Defector,Tit For Tat,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+12,2,1,0,Tit For Tat,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+13,1,3,0,Defector,Grudger,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+13,3,1,0,Grudger,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+14,1,4,0,Defector,Danai - Random: 0.5,DDDDDDDDDD,-12,30,10,-1.2,3.0,1,False,0,0,0,6,4,0,0,0,0,0,5,0,4,0
+14,4,1,0,Danai - Random: 0.5,Defector,CDDCCDCCDC,-42,-30,10,-4.2,-3.0,0,True,6,0,6,0,4,0,0,2,3,0,0,3,1,1
+15,1,5,0,Defector,Florence,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+15,5,1,0,Florence,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+16,1,6,0,Defector,Lukas - Generous Tit-For-Tat,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+16,6,1,0,Lukas - Generous Tit-For-Tat,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+17,1,7,0,Defector,Luka - Checkmate,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+17,7,1,0,Luka - Checkmate,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+18,1,8,0,Defector,Philipp - Random: 0.5,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+18,8,1,0,Philipp - Random: 0.5,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+19,1,9,0,Defector,Jan,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+19,9,1,0,Jan,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+20,1,10,0,Defector,Valentin: 0.5,DDDDDDDDDD,-27,5,10,-2.7,0.5,1,False,0,0,0,1,9,0,0,0,0,0,1,0,8,0
+20,10,1,0,Valentin: 0.5,Defector,CDDDDDDDDD,-32,-5,10,-3.2,-0.5,0,True,1,0,1,0,9,0,0,0,1,0,0,0,8,1
+21,2,2,0,Tit For Tat,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+21,2,2,0,Tit For Tat,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+22,2,3,0,Tit For Tat,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+22,3,2,0,Grudger,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+23,2,4,0,Tit For Tat,Danai - Random: 0.5,CCDDCDCDDC,-27,-5,10,-2.7,-0.5,0,True,5,1,4,3,2,1,0,0,3,3,0,0,2,1
+23,4,2,0,Danai - Random: 0.5,Tit For Tat,CDDCDCDDCD,-22,5,10,-2.2,0.5,1,True,4,1,3,4,2,0,1,0,3,1,2,2,0,0
+24,2,5,0,Tit For Tat,Florence,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+24,5,2,0,Florence,Tit For Tat,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+25,2,6,0,Tit For Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+25,6,2,0,Lukas - Generous Tit-For-Tat,Tit For Tat,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+26,2,7,0,Tit For Tat,Luka - Checkmate,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+26,7,2,0,Luka - Checkmate,Tit For Tat,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+27,2,8,0,Tit For Tat,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+27,8,2,0,Philipp - Random: 0.5,Tit For Tat,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+28,2,9,0,Tit For Tat,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+28,9,2,0,Jan,Tit For Tat,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+29,2,10,0,Tit For Tat,Valentin: 0.5,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+29,10,2,0,Valentin: 0.5,Tit For Tat,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+30,3,3,0,Grudger,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+30,3,3,0,Grudger,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+31,3,4,0,Grudger,Danai - Random: 0.5,CCCCCCCDDD,-17,0,10,-1.7,0.0,0,True,7,6,1,1,2,6,0,0,1,0,1,0,1,1
+31,4,3,0,Danai - Random: 0.5,Grudger,CCCCCCDDCD,-17,0,10,-1.7,0.0,0,True,7,6,1,1,2,5,1,0,1,0,1,1,0,1
+32,3,5,0,Grudger,Florence,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+32,5,3,0,Florence,Grudger,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+33,3,6,0,Grudger,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+33,6,3,0,Lukas - Generous Tit-For-Tat,Grudger,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+34,3,7,0,Grudger,Luka - Checkmate,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+34,7,3,0,Luka - Checkmate,Grudger,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+35,3,8,0,Grudger,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+35,8,3,0,Philipp - Random: 0.5,Grudger,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+36,3,9,0,Grudger,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+36,9,3,0,Jan,Grudger,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+37,3,10,0,Grudger,Valentin: 0.5,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+37,10,3,0,Valentin: 0.5,Grudger,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+38,4,4,0,Danai - Random: 0.5,Danai - Random: 0.5,DDCCDCCDCD,-22,0,10,-2.2,0.0,0,False,5,3,2,2,3,2,1,0,2,2,0,1,1,1
+38,4,4,0,Danai - Random: 0.5,Danai - Random: 0.5,DDCDCCDCCD,-22,0,10,-2.2,0.0,0,False,5,3,2,2,3,0,3,2,0,2,0,1,1,1
+39,4,5,0,Danai - Random: 0.5,Florence,DCDCCCDDCD,-37,-20,10,-3.7,-2.0,0,False,5,0,5,1,4,0,0,2,3,1,0,2,1,1
+39,5,4,0,Florence,Danai - Random: 0.5,CDDDDDDDDD,-17,20,10,-1.7,2.0,1,True,1,0,1,5,4,0,0,0,1,0,5,0,3,0
+40,4,6,0,Danai - Random: 0.5,Lukas - Generous Tit-For-Tat,CCDCDCCDCD,-27,-10,10,-2.7,-1.0,0,True,6,3,3,1,3,1,2,1,2,1,0,2,0,1
+40,6,4,0,Lukas - Generous Tit-For-Tat,Danai - Random: 0.5,CCCDDDCDDD,-17,10,10,-1.7,1.0,1,True,4,3,1,3,3,2,1,0,1,1,2,0,2,0
+41,4,7,0,Danai - Random: 0.5,Luka - Checkmate,CDDCDCCDCD,-23,0,10,-2.3,0.0,0,True,5,2,3,3,2,0,2,1,2,2,1,1,0,1
+41,7,4,0,Luka - Checkmate,Danai - Random: 0.5,CCDDCDCCDD,-23,0,10,-2.3,0.0,0,True,5,2,3,3,2,2,0,0,3,2,1,0,1,1
+42,4,8,0,Danai - Random: 0.5,Philipp - Random: 0.5,DCDDDCCDCC,-34,-15,10,-3.4,-1.5,0,False,5,0,5,2,3,0,0,2,2,1,1,2,1,1
+42,8,4,0,Philipp - Random: 0.5,Danai - Random: 0.5,CDCDDDDDDD,-19,15,10,-1.9,1.5,1,True,2,0,2,5,3,0,0,0,2,1,3,0,3,0
+43,4,9,0,Danai - Random: 0.5,Jan,CDCDDDDCDC,-28,-5,10,-2.8,-0.5,0,True,4,1,3,2,4,0,1,0,2,1,1,2,2,1
+43,9,4,0,Jan,Danai - Random: 0.5,CCDCDDDDDD,-23,5,10,-2.3,0.5,1,True,3,1,2,3,4,1,0,0,2,1,1,0,4,0
+44,4,10,0,Danai - Random: 0.5,Valentin: 0.5,DDDCCCCDDD,-20,5,10,-2.0,0.5,1,False,4,3,1,2,4,2,1,1,0,0,2,1,2,0
+44,10,4,0,Valentin: 0.5,Danai - Random: 0.5,CDDDCCCCDD,-25,-5,10,-2.5,-0.5,0,True,5,3,2,1,4,3,0,0,2,1,0,0,3,1
+45,5,5,0,Florence,Florence,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+45,5,5,0,Florence,Florence,CCCCCCCCCC,-10,0,10,-1.0,0.0,0,True,10,10,0,0,0,9,0,0,0,0,0,0,0,1
+46,5,6,0,Florence,Lukas - Generous Tit-For-Tat,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+46,6,5,0,Lukas - Generous Tit-For-Tat,Florence,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+47,5,7,0,Florence,Luka - Checkmate,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+47,7,5,0,Luka - Checkmate,Florence,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+48,5,8,0,Florence,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+48,8,5,0,Philipp - Random: 0.5,Florence,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+49,5,9,0,Florence,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+49,9,5,0,Jan,Florence,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+50,5,10,0,Florence,Valentin: 0.5,CCCCCCCCCC,-14,-5,10,-1.4,-0.5,0,True,10,9,1,0,0,9,0,0,0,0,0,0,0,1
+50,10,5,0,Valentin: 0.5,Florence,CCCCCCCCCD,-9,5,10,-0.9,0.5,1,True,9,9,0,1,0,8,1,0,0,0,0,0,0,0
+51,6,6,0,Lukas - Generous Tit-For-Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+51,6,6,0,Lukas - Generous Tit-For-Tat,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+52,6,7,0,Lukas - Generous Tit-For-Tat,Luka - Checkmate,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+52,7,6,0,Luka - Checkmate,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+53,6,8,0,Lukas - Generous Tit-For-Tat,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+53,8,6,0,Philipp - Random: 0.5,Lukas - Generous Tit-For-Tat,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+54,6,9,0,Lukas - Generous Tit-For-Tat,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+54,9,6,0,Jan,Lukas - Generous Tit-For-Tat,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+55,6,10,0,Lukas - Generous Tit-For-Tat,Valentin: 0.5,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+55,10,6,0,Valentin: 0.5,Lukas - Generous Tit-For-Tat,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+56,7,7,0,Luka - Checkmate,Luka - Checkmate,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+56,7,7,0,Luka - Checkmate,Luka - Checkmate,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+57,7,8,0,Luka - Checkmate,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+57,8,7,0,Philipp - Random: 0.5,Luka - Checkmate,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+58,7,9,0,Luka - Checkmate,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+58,9,7,0,Jan,Luka - Checkmate,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+59,7,10,0,Luka - Checkmate,Valentin: 0.5,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+59,10,7,0,Valentin: 0.5,Luka - Checkmate,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+60,8,8,0,Philipp - Random: 0.5,Philipp - Random: 0.5,CCCDDDDDDD,-24,0,10,-2.4,0.0,0,True,3,3,0,0,7,2,1,0,0,0,0,0,6,1
+60,8,8,0,Philipp - Random: 0.5,Philipp - Random: 0.5,CCCDDDDDDD,-24,0,10,-2.4,0.0,0,True,3,3,0,0,7,2,1,0,0,0,0,0,6,1
+61,8,9,0,Philipp - Random: 0.5,Jan,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+61,9,8,0,Jan,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+62,8,10,0,Philipp - Random: 0.5,Valentin: 0.5,CCCDDDDDDD,-21,5,10,-2.1,0.5,1,True,3,3,0,1,6,2,1,0,0,0,1,0,5,0
+62,10,8,0,Valentin: 0.5,Philipp - Random: 0.5,CCCCDDDDDD,-26,-5,10,-2.6,-0.5,0,True,4,3,1,0,6,3,0,0,1,0,0,0,5,1
+63,9,9,0,Jan,Jan,CCCCDDDDDD,-22,0,10,-2.2,0.0,0,True,4,4,0,0,6,3,1,0,0,0,0,0,5,1
+63,9,9,0,Jan,Jan,CCCCDDDDDD,-22,0,10,-2.2,0.0,0,True,4,4,0,0,6,3,1,0,0,0,0,0,5,1
+64,9,10,0,Jan,Valentin: 0.5,CCCCDDDDDD,-19,5,10,-1.9,0.5,1,True,4,4,0,1,5,3,1,0,0,0,1,0,4,0
+64,10,9,0,Valentin: 0.5,Jan,CCCCCDDDDD,-24,-5,10,-2.4,-0.5,0,True,5,4,1,0,5,4,0,0,1,0,0,0,4,1
+65,10,10,0,Valentin: 0.5,Valentin: 0.5,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
+65,10,10,0,Valentin: 0.5,Valentin: 0.5,CCCCCCCCCD,-12,0,10,-1.2,0.0,0,True,9,9,0,0,1,8,1,0,0,0,0,0,0,1
