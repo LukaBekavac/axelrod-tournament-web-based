@@ -1,10 +1,11 @@
 import axelrod as axl
 from wasstrategies import danai_strategy as pl0
+from wasstrategies import florence_strategy as pl1
 
 """Run an Axelrod Tournament (https://axelrod.readthedocs.io/en/stable/tutorials/new_to_game_theory_and_or_python/tournament.html)"""
 # Create the strategy players
 strategies = [axl.Cooperator(), axl.Defector(),
-axl.TitForTat(), axl.Grudger(), pl0.Danai()]
+              axl.TitForTat(), axl.Grudger(), pl0.Danai(), pl1.Florence()]
 
 # Print the startegy players
 print(f"Available strategies: {strategies}")
