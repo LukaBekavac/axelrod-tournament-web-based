@@ -6,7 +6,6 @@ from wasstrategies import florence_strategy as pl1
 # Create the strategy players
 strategies = [axl.Cooperator(), axl.Defector(),
               axl.TitForTat(), axl.Grudger(), pl0.Danai(), pl1.Florence()]
-
 # Print the startegy players
 print(f"Available strategies: {strategies}")
 
